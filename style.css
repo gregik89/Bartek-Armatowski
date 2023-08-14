@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 15rem 0;
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#about .img-fluid {
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+#realizations .img-fluid,
+#gallery-carousel .img-fluid {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 1rem 0;
+}
+
+.carousel-item {
+    height: auto; /* Adjust the height as needed */
+}
+.carousel-inner .carousel-item img {
+  max-height: 800px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Change the color of the control icons */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    color: #fff; /* Change the color of the control icons */
+}
+
+.carousel-indicators {
+    bottom: -40px; /* Adjust the position of the indicators */
+}
+
+.carousel-indicators li {
+    background-color: #000; /* Change the color of the indicators */
+}
+
+.carousel-indicators li.active {
+    background-color: #fff; /* Change the color of the active indicator */
+}
